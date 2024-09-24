@@ -2,7 +2,7 @@
 
 ## Summary
 
-This project aimed to predict the risk of late deliveries in a supply chain dataset using machine learning models. The primary goal was to minimize false negatives — ensuring that late deliveries were accurately identified. We applied Logistic Regression, Random Forest, and XGBoost, achieving consistent and high model performance, with accuracies around **97.4%** across all models.
+This project aimed to predict the risk of late deliveries in a supply chain dataset using machine learning models. It was assumed that accurately predicting late delivery risk rather than no-risk was of highest importance to the business. Therefore, the predictive model was optimized for sensitivity (recall). We applied Logistic Regression, Random Forest, and XGBoost, achieving consistent and high model performance, with accuracies around **97.4%** across all models.
 
 The main focus was to identify key features driving the risk of late delivery, such as shipment timing, payment method, and the variance between scheduled and actual shipping days. The project successfully highlighted how machine learning can help manage supply chain performance and mitigate operational risks.
 
