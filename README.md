@@ -36,7 +36,7 @@
 
 ## Results
 - The models evaluated (Logistic Regression, Random Forest, and XGBoost) all performed exceptionally well, achieving **97.4% accuracy** and a recall of 1.
-- **Shipment timing** was identified as the most critical factor in predicting late delivery risk. Features like **"Days for shipping (real)"**, **"Days for shipment (scheduled)"**, and **"diff(hours)"** were consistently ranked among the top features.
+- **Shipment timing** was identified as the most critical factor in predicting late delivery risk. Features like **"Days for shipping (real)"**, **"Days for shipment (scheduled)"**, and **"diff(hours) (difference between ordered vs. shipped)"** were consistently ranked among the top features.
 - **Payment method**, specifically **Transfer**, was another key predictor of delivery delays.
 
 ## Improvements
