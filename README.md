@@ -36,8 +36,7 @@
 
 ## Results
 - The models evaluated (Logistic Regression, Random Forest, and XGBoost) all performed exceptionally well, achieving **97.4% accuracy** and a recall of 1.
-- **Shipment timing** was identified as the most critical factor in predicting late delivery risk. Features like **"Days for shipping (real)"**, **"Days for shipment (scheduled)"**, **"Shipping Mode"**, and **"diff(hours) (time difference between ordered vs. shipped)"** were consistently ranked among the top features.
-- **Payment method**, specifically **Transfer**, was another key predictor of delivery delays.
+- The key features identified as critical in predicting late delivery risk were **Days for shipping (real)**, which showed a positive correlation—indicating longer actual shipping times increased the risk of late delivery—and **Days for shipment (scheduled)**, which had a negative correlation, suggesting better planning reduces delays. **Shipping Mode** also significantly impacted risk, with Same Day delivery reducing risk due to faster, more optimized logistics, while First Class posed the highest risk due to longer fulfillment times and logistical inconsistencies. The **Order_to_Shipment_Time**, representing fulfillment time, highlighted how reducing the time from order placement to shipment improved delivery performance. Lastly, **Payment methods**, particularly Transfer, were found to be a key predictor of late deliveries, adding another dimension to optimizing supply chain efficiency.
 
 By accurately predicting late deliveries, the project demonstrated how machine learning can help optimize supply chain performance, enabling the business to proactively manage risk and ensure timely deliveries. The ability to accurately identify factors like shipping time, payment methods, and operational delays, which directly impact late delivery, provides valuable insights that can help mitigate risks and improve customer satisfaction.
 
