@@ -1,5 +1,8 @@
 # Late Delivery Risk Prediction
 
+Dataset used: 
+https://www.kaggle.com/datasets/shashwatwork/dataco-smart-supply-chain-for-big-data-analysis/data
+
 ## Summary
 
 - This project aimed to predict the risk of late deliveries in a supply chain dataset using machine learning models. We applied Logistic Regression, Random Forest, and XGBoost, achieving consistent and high model performance, with accuracies around **97.4%** across all models.
